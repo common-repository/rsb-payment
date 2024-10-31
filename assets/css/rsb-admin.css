@@ -1,0 +1,19 @@
+.mr {
+    margin-right:10px;
+}
+.pt {
+    padding-top:10px;
+}
+.inline {
+    width:100%;
+    display:inline-block;
+}
+.rsbcol1 {width:65px;}
+.rsbcol2 {width:65px;}
+.rsbcol6 {width:65px;}
+.rsbcol7 {width:65px;}
+.rsbcol9 table {
+    margin-top:-8px;
+}
+.rsbcol8 {width:65px;}
+.rsbcol10 {width:65px;}

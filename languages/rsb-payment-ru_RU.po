@@ -1,0 +1,342 @@
+# Translation for Plugin
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - RC WooCommerce Buy One Click\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2022-04-27 15:25+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+
+msgid "Payment gateway of Russian Standard Bank for WooCommerce"
+msgstr "Платежный шлюз - эквайринг Банка Русский Стандарт"
+
+#Names
+msgid "Russian Standard Bank acquiring"
+msgstr "Эквайринг Банка Русский Стандарт"
+
+msgid "Allows you to accept payments - Russian Standard Bank"
+msgstr "Позволяет принимать платежи - Банк Русский Стандарт"
+
+msgid "Russian Standard Bank"
+msgstr "Банк Русский Стандарт"
+
+msgid "Payment by bank card"
+msgstr "Оплата банковской картой"
+
+msgid "Payments Russian Standard Bank"
+msgstr "Платежи Банка Русский Стандарт"
+
+#Settings
+msgid "Request address set"
+msgstr "Набор адресов для запросов"
+
+msgid "For testing"
+msgstr "Для тестирования"
+
+msgid "Work mode"
+msgstr "Рабочий режим"
+
+msgid "Custom"
+msgstr "Произвольный"
+
+msgid "Sending buyers for payment"
+msgstr "Отправка покупателей для платежа"
+
+msgid "For payment module requests"
+msgstr "Для запросов модуля оплаты"
+
+msgid "SBP payment scenario"
+msgstr "Сценарий оплаты"
+
+msgid "Enable sending checks"
+msgstr "Включить отправку чеков"
+
+msgid "Send checks"
+msgstr "Отправлять чеки"
+
+msgid "If enabled, checks will be generated upon payment"
+msgstr "Если включено, чеки будут формироваться при оплате"
+
+msgid "TSP identifier"
+msgstr "Идентификатор ТСП"
+
+msgid "TSP identifier must be obtained from the representatives of the Bank or in your personal account"
+msgstr "Идентификатор ТСП нужно получить у представителей Банка или в личном кабинете"
+
+msgid "PayAttribute"
+msgstr "Признак способа расчета"
+
+msgid "You must select PayAttribute from the table below"
+msgstr "Необходимо выбрать признак способа расчета из таблицы ниже"
+
+msgid "PayAttribute #0"
+msgstr "Признак № 0"
+
+msgid "PayAttribute #1"
+msgstr "Признак № 1"
+
+msgid "PayAttribute #2"
+msgstr "Признак № 2"
+
+msgid "PayAttribute #3"
+msgstr "Признак № 3"
+
+msgid "PayAttribute #4"
+msgstr "Признак № 4"
+
+msgid "PayAttribute #5"
+msgstr "Признак № 5"
+
+msgid "PayAttribute #6"
+msgstr "Признак № 6"
+
+msgid "PayAttribute #7"
+msgstr "Признак № 7"
+
+msgid "Force use TaxID for receipts"
+msgstr "Принудительно использовать для чеков код налога"
+
+msgid "Use TaxID"
+msgstr "Использовать код налога"
+
+msgid "If required, check the box to force the use of the TaxID selected below"
+msgstr "Если требуется, установите галочку для принудительного использования кода налога, выбранного ниже"
+
+msgid "TaxID"
+msgstr "Код налога"
+
+msgid "This TaxID will be used if the checkbox \"Force use TaxID for receipts\" is checked"
+msgstr "Этот код налога будет использоваться, если установлена галочка \"Принудительно использовать для чеков код налога\""
+
+msgid "Tax"
+msgstr "НДС"
+
+msgid "No Tax"
+msgstr "Без налога"
+
+msgid "PEM File"
+msgstr "Файл PEM"
+
+msgid "Certificate file that you can receive after registering your merchant with the Bank"
+msgstr "Файл сертификата, который Вы можете получить после регистрации своего мерчанта в Банке"
+
+msgid "KEY File"
+msgstr "Файл KEY"
+
+msgid "The key file that you will receive when creating a certificate request"
+msgstr "Ключевой файл, который Вы получите при создании запроса на получение сертификата"
+
+msgid "CRT File"
+msgstr "Файл CRT"
+
+msgid "Certificate chain file that you can download yourself"
+msgstr "Файл цепочки сертификатов, который Вы можете скачать самостоятельно"
+
+msgid "here"
+msgstr "здесь"
+
+msgid "Enable query log"
+msgstr "Включить лог запросов"
+
+msgid "Log enabled"
+msgstr "Лог включен"
+
+msgid "If enabled, requests to the bank and responses will be recorded in a log file (only for technical specialists!)"
+msgstr "Если включено, запросы в банк и ответы будут фиксироваться в лог-файле (только для технических специалистов!)"
+
+msgid "File already uploaded"
+msgstr "Файл уже загружен"
+
+msgid "Want to upload another file"
+msgstr "Хотите загрузить другой файл"
+
+#PayAttribute - Table
+msgid "Table of «PayAttribute»"
+msgstr "Выбор «PayAttribute» - Признака способа расчёта"
+
+msgid "The list of grounds for assigning the variable «sign of the method of calculation» of the corresponding value of the variable"
+msgstr "Перечень оснований для присвоения реквизиту «признак способа расчёта» соответствующего значения реквизита"
+
+msgid "For individual entrepreneurs who are taxpayers applying the patent taxation system and the simplified taxation system, as well as individual entrepreneurs applying the taxation system for agricultural producers, the taxation system in the form of a single tax on imputed income for certain types of activities when carrying out the types of entrepreneurial activities established by paragraph 2 Article 346.26 of the Tax Code of the Russian Federation, with the exception of individual entrepreneurs trading in excisable goods, the requirement for the mandatory inclusion of details in the cash receipt and SRF is applied from February 1, 2021. The PayAttribute field can be omitted"
+msgstr "Для индивидуальных предпринимателей, являющихся налогоплательщиками, применяющими патентную систему налогообложения и упрощённую систему налогообложения, а также индивидуальных предпринимателей, применяющих систему налогообложения для сельскохозяйственных товаропроизводителей, систему налогообложения в виде единого налога на вменённый доход для отдельных видов деятельности при осуществлении видов предпринимательской деятельности, установленных пунктом 2 статьи 346.26 Налогового кодекса Российской Федерации, за исключением индивидуальных предпринимателей, осуществляющих торговлю подакцизными товарами, требование об обязательном включении в состав кассового чека и БСО реквизита применяется с 1 февраля 2021 года. Поле PayAttribute можно опустить"
+
+msgid "Full advance payment before the transfer of the subject of calculation"
+msgstr "Полная предварительная оплата до момента передачи предмета расчёта"
+
+msgid "Partial advance payment until the transfer of the subject of calculation"
+msgstr "Частичная предварительная оплата до момента передачи предмета расчёта"
+
+msgid "Prepaid expense"
+msgstr "Аванс"
+
+msgid "Full payment, including taking into account the advance payment (prepayment) at the time of transfer of the subject of calculation"
+msgstr "Полная оплата, в том числе с учётом аванса (предварительной оплаты) в момент передачи предмета расчёта"
+
+msgid "Partial payment of the subject of settlement at the time of its transfer, followed by payment on credit"
+msgstr "Частичная оплата предмета расчёта в момент его передачи с последующей оплатой в кредит"
+
+msgid "Transfer of the subject of settlement without its payment at the time of its transfer, followed by payment on credit"
+msgstr "Передача предмета расчёта без его оплаты в момент его передачи с последующей оплатой в кредит"
+
+msgid "Payment of the subject of settlement after its transfer with payment on credit (loan payment). This attribute must be the only one in the document, and a document with this attribute can contain only one line"
+msgstr "Оплата предмета расчёта после его передачи с оплатой в кредит (оплата кредита). Этот признак должен быть единственным в документе и документ с этим признаком может содержать только одну строку"
+
+#return_pages
+msgid "Payment system message"
+msgstr "Сообщение платежной системы"
+
+msgid "Refuse. Payment system message: Response code"
+msgstr "Отказ. Сообщение платежной системы: Код ответа"
+
+msgid "Return to the homepage"
+msgstr "Вернуться на главную страницу"
+
+msgid "Sorry, there was a payment error"
+msgstr "Извините, произошла ошибка при оплате"
+
+#Calc
+msgid "1 piece"
+msgstr "1 шт"
+
+msgid "piece"
+msgstr "шт"
+
+msgid "Delivery"
+msgstr "Доставка"
+
+msgid "Rub/piece"
+msgstr "Р/шт"
+
+msgid "Rub"
+msgstr "Р"
+
+#Order_STatuses
+msgid "Order has been paid"
+msgstr "Заказ оплачен"
+
+msgid "Payment attempt failed"
+msgstr "Попытка оплаты завершилась неудачно"
+
+msgid "Payment expected"
+msgstr "Ожидается оплата"
+
+#Refunds
+msgid "Refund attempt: refund amount not transferred"
+msgstr "Попытка возврата: сумма возврата не передана"
+
+msgid "Refund attempt: no paid (completed) bank transaction found"
+msgstr "Попытка возврата: не найдена оплаченная (завершенная) банковская транзакция"
+
+msgid "Attempt to return: the order was placed with a check, but now checks are disabled or TCP_ID is not specified"
+msgstr "Попытка возврата: заказ был оформлен с чеком, но сейчас чеки отключены или TCP_ID не указан"
+
+msgid "Amounts for returning goods"
+msgstr "Суммы для возврата товаров"
+
+msgid "Return attempt: product"
+msgstr "Попытка возврата: товар"
+
+msgid "cannot be returned anymore (attempt to return more than the remainder)"
+msgstr "нельзя больше вернуть (попытка вернуть больше остатка)"
+
+msgid "can no longer be returned (remainder = 0)"
+msgstr "нельзя больше вернуть (остаток = 0)"
+
+msgid "Attempt to return: product return error"
+msgstr "Попытка возврата: ошибка возврата товара"
+
+msgid "the goods have not determined the value of the check"
+msgstr "у товара не определилась стоимость по чеку"
+
+msgid "Refund attempt: Refund and settlement amounts for the check differ by"
+msgstr "Попытка возврата: Суммы возврата и расчета для чека отличаются на"
+
+msgid "pennies. Amount correction needed"
+msgstr "коп. Необходима коррекция суммы"
+
+msgid "Refund attempt: Refund"
+msgstr "Попытка возврата: Возврат на сумму"
+
+msgid "RUB made"
+msgstr "Р. произведен"
+
+msgid "Refund attempt: Refund made for the amount"
+msgstr "Попытка возврата: Возврат произведен на сумму"
+
+msgid "RUB, however, saving or update the bank transaction record failed. Please check your bank account"
+msgstr "Р., однако, запись или обновления банковской транзации завершилась неудачей. Проверьте, пожалуйста, личный кабинет в банке"
+
+msgid "Payment returned"
+msgstr "Оплата возвращена"
+
+msgid "Return attempt: Return attempt failed"
+msgstr "Попытка возврата: Неудача попытки возврата"
+
+
+#AdminPage
+msgid "Payment module - Russian Standard Bank"
+msgstr "Модуль оплат Банка Русский Стандарт"
+
+msgid "Created on"
+msgstr "Дата создания"
+
+msgid "Order ID"
+msgstr "№ заказа"
+
+msgid "Order Info"
+msgstr "Информация о заказе"
+
+msgid "Transaction ID"
+msgstr "№ транзакции"
+
+msgid "Result"
+msgstr "Результат"
+
+msgid "Type"
+msgstr "Тип"
+
+msgid "Date of last request"
+msgstr "Дата последнего запроса"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Generated check"
+msgstr "Сформированный чек"
+
+msgid "Amount"
+msgstr "Сумма"
+
+msgid "Check status"
+msgstr "Проверить статус"
+
+msgid "Full refund"
+msgstr "Полностью вернуть средства"
+
+#error codes
+msgid "An error occurred during the payment process. Contact the store administration"
+msgstr "В процессе оплаты произошла ошибка. Свяжитесь с администрацией магазина"
+
+msgid "An error occurred during the payment process. No certificate files specified or address for submitting requests not specified"
+msgstr "В процессе оплаты произошла ошибка. Не заданы файлы сертификатов или не указан адрес для отправки запросов"
+
+msgid "An error occurred during the payment process. Error in request, please check your settings (there is no TransID in the response)"
+msgstr "В процессе оплаты произошла ошибка. Ошибка в запросе, проверьте настройки (в ответе нет TransID)"
+
+#errcodes
+msgid "Failure"
+msgstr "Отказ"
+
+msgid "Failure: card expired"
+msgstr "Отказ: карта просрочена"
+
+msgid "Failure: insufficient funds"
+msgstr "Отказ: недостаточно средств"
+
